@@ -1,5 +1,5 @@
 const calculateEngravingPrice = function (message, pricePerWord) {
-    let splitArr = sentence.split(" ");
+    let splitArr = message.split(" ");
     message = splitArr.length
 
     return message * pricePerWord
@@ -9,4 +9,4 @@ const calculateEngravingPrice = function (message, pricePerWord) {
 let sentence = 'Mariam will become front-end Developer'
 console.log (calculateEngravingPrice(sentence,10));
 
-// console.log(calculateEngravingPrice('Donec orci lectus aliquam est magnis',20));
+console.log(calculateEngravingPrice('Donec orci lectus aliquam est magnis',20));
